@@ -1,0 +1,34 @@
+[project]
+name = "parco"
+version = "0.1.0"
+description = "Iterative, track-changes writing with AI for LaTeX documents: the AI reads and proposes, you decide"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Etienne Meunier" }]
+keywords = ["latex", "writing", "ai", "review", "track-changes", "claude"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Environment :: Web Environment",
+    "Topic :: Text Processing :: Markup :: LaTeX",
+]
+requires-python = ">=3.12"
+dependencies = ["click>=8.1"]
+
+[project.scripts]
+parco = "parco.cli:main"
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+parco = ["guide.md"]
+"parco.server" = ["static/*", "templates/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

@@ -1,0 +1,14 @@
+$if(title)$
+<header class="doc-title">
+<h1>$title$</h1>
+$if(author)$<p class="doc-author">$for(author)$$author$$sep$, $endfor$</p>$endif$
+$if(date)$<p class="doc-date">$date$</p>$endif$
+</header>
+$endif$
+$if(abstract)$
+<section class="abstract">
+<h2>Abstract</h2>
+$abstract$
+</section>
+$endif$
+$body$

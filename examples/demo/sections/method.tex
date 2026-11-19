@@ -1,0 +1,24 @@
+\section{Method}
+
+We consider the advection equation
+\begin{equation}
+\partial_t u + c\,\partial_x u = 0, \qquad u(x, 0) = u_0(x),
+\label{eq:advection}
+\end{equation}
+discretised in time with the $\theta$-method, where $\theta \in [0, 1]$ controls the implicitness.
+
+The amplification factor of the scheme is $g(k) = \frac{1 - (1-\theta)\, i \lambda \sin k}{1 + \theta\, i \lambda \sin k}$, so $|g| \le 1$ whenever $\theta \ge 1/2$.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.6\linewidth]{bars}
+\caption{Error of the scheme for three time steps (Section~\ref{eq:advection}).}
+\label{fig:bars}
+\end{figure}
+
+The results of Figure~\ref{fig:bars} confirms the analysis.
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.4\linewidth]{missing_plot}
+\caption{A figure that is not there yet.}
+\end{figure}

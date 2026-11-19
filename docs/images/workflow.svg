@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1045 215" width="1045" height="215" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="head" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M0,1 L9,5 L0,9 L2.2,5 z" fill="#3a3a3a"/>
+    </marker>
+  </defs>
+
+  <rect width="1045" height="215" rx="12" fill="#ffffff"/>
+
+  <!-- legend -->
+  <g font-size="13" fill="#3a3a3a">
+    <rect x="937" y="18" width="14" height="14" rx="3" fill="#dce8f7" stroke="#3b6fb6" stroke-width="1.5"/>
+    <text x="957" y="29.5">AI</text>
+    <rect x="980" y="18" width="14" height="14" rx="3" fill="#dcefe2" stroke="#2e8b57" stroke-width="1.5"/>
+    <text x="1000" y="29.5">You</text>
+  </g>
+
+  <!-- the Parco review -->
+  <rect x="195" y="50" width="655" height="145" rx="12" fill="#f6f6f4" stroke="#c9c9c4" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="212" y="73" font-size="13" font-weight="600" fill="#6a6a6a" letter-spacing="0.5">Parco</text>
+
+  <!-- version labels -->
+  <g font-size="14" font-weight="600" fill="#2e8b57" text-anchor="middle">
+    <text x="90" y="100">v1</text>
+    <text x="955" y="100">v2</text>
+  </g>
+
+  <!-- steps -->
+  <g font-size="17" font-weight="600" fill="#1f2a37" text-anchor="middle">
+    <rect x="30" y="110" width="120" height="54" rx="8" fill="#dcefe2" stroke="#2e8b57" stroke-width="1.6"/>
+    <text x="90" y="143">Write</text>
+    <rect x="215" y="110" width="120" height="54" rx="8" fill="#dce8f7" stroke="#3b6fb6" stroke-width="1.6"/>
+    <text x="275" y="143">Read</text>
+    <rect x="380" y="110" width="120" height="54" rx="8" fill="#dcefe2" stroke="#2e8b57" stroke-width="1.6"/>
+    <text x="440" y="143">Review</text>
+    <rect x="545" y="110" width="120" height="54" rx="8" fill="#dce8f7" stroke="#3b6fb6" stroke-width="1.6"/>
+    <text x="605" y="143">Iterate</text>
+    <rect x="710" y="110" width="120" height="54" rx="8" fill="#dcefe2" stroke="#2e8b57" stroke-width="1.6"/>
+    <text x="770" y="143">Close</text>
+    <rect x="895" y="110" width="120" height="54" rx="8" fill="#dcefe2" stroke="#2e8b57" stroke-width="1.6"/>
+    <text x="955" y="143">Write</text>
+  </g>
+
+  <!-- flow -->
+  <g stroke="#3a3a3a" stroke-width="1.6" fill="none" marker-end="url(#head)">
+    <line x1="151" y1="137" x2="213" y2="137"/>
+    <line x1="336" y1="137" x2="378" y2="137"/>
+    <line x1="501" y1="137" x2="543" y2="137"/>
+    <line x1="666" y1="137" x2="708" y2="137"/>
+    <line x1="831" y1="137" x2="893" y2="137"/>
+    <path d="M 605 109 V 90 Q 605 82 597 82 H 448 Q 440 82 440 90 V 108"/>
+  </g>
+  <text x="522" y="74" text-anchor="middle" font-size="13" fill="#3a3a3a">repeat as needed</text>
+</svg>
