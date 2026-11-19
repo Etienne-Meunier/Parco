@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 360" width="920" height="360" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+<defs><marker id="head" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,1 L9,5 L0,9 L2.2,5 z" fill="#3a3a3a"/></marker></defs>
+<rect width="920" height="360" rx="12" fill="#ffffff"/>
+<path d="M 50.0 330.0 L 510.0 330.0 L 460.6 265.5 L 99.4 265.5 Z" fill="#fbd9d9" stroke="#e39b9b" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="280" y="302.8" text-anchor="middle" font-size="15" font-weight="600" fill="#1f2a37">reference</text>
+<line x1="493.3" y1="297.8" x2="538" y2="297.8" stroke="#bdbdbd" stroke-width="1" stroke-dasharray="2 3"/>
+<text x="548" y="302.2" font-size="13.5" fill="#3a3a3a">resolves \cite{parco} into real, verified references</text>
+<path d="M 101.8 262.5 L 458.2 262.5 L 409.9 199.5 L 150.1 199.5 Z" fill="#fde9cc" stroke="#e3b26b" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="280" y="236.0" text-anchor="middle" font-size="15" font-weight="600" fill="#1f2a37">comment</text>
+<line x1="442.1" y1="231.0" x2="538" y2="231.0" stroke="#bdbdbd" stroke-width="1" stroke-dasharray="2 3"/>
+<text x="548" y="235.5" font-size="13.5" fill="#3a3a3a">comments on passages, like an advisor would</text>
+<path d="M 152.3 196.5 L 407.6 196.5 L 359.4 133.5 L 200.7 133.5 Z" fill="#d9f1dc" stroke="#86c494" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="280" y="170.0" text-anchor="middle" font-size="15" font-weight="600" fill="#1f2a37">proofread</text>
+<line x1="391.5" y1="165.0" x2="538" y2="165.0" stroke="#bdbdbd" stroke-width="1" stroke-dasharray="2 3"/>
+<text x="548" y="169.5" font-size="13.5" fill="#3a3a3a">edits existing text: grammar, wording, clarity</text>
+<path d="M 202.9 130.5 L 357.1 130.5 L 280 30.0 Z" fill="#d8e5fa" stroke="#86a9df" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="280" y="107.4" text-anchor="middle" font-size="15" font-weight="600" fill="#1f2a37">generative</text>
+<line x1="343.5" y1="102.4" x2="538" y2="102.4" stroke="#bdbdbd" stroke-width="1" stroke-dasharray="2 3"/>
+<text x="548" y="106.9" font-size="13.5" fill="#3a3a3a">writes new text, only where you left a %parco tag</text>
+<line x1="34" y1="326" x2="34" y2="36" stroke="#3a3a3a" stroke-width="1.6" marker-end="url(#head)"/>
+<text transform="translate(22 181) rotate(-90)" text-anchor="middle" font-size="13" fill="#3a3a3a">each mode includes the ones below</text>
+</svg>

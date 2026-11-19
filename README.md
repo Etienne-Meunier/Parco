@@ -36,14 +36,9 @@ Each version of your document goes through three phases.
 
 ### Four reading modes
 
-Modes go from the lightest to the most active touch, and each one includes the weaker ones.
+Modes go from the lightest to the most active touch, and each one includes everything below it in the pyramid.
 
-| Mode | What the AI may do |
-|---|---|
-| `reference` | Resolve `\cite{parco}` placeholders into real, verified references (with BibTeX entries) |
-| `comment` | Also open comment threads, on a passage or on the whole document, like an advisor would |
-| `proofread` | Also edit existing text: grammar, wording, clearer formulation |
-| `generative` | Also write new text, but only where you left a `%parco` tag |
+![The four modes as a pyramid: reference at the base, then comment, proofread and generative at the top; each mode includes the ones below](docs/images/modes.svg)
 
 ### Two tags to guide the AI
 
